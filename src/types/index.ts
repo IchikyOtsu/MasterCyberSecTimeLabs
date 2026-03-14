@@ -8,18 +8,3 @@ export interface CalendarEvent {
   source: 'ULB' | 'UNamur';
   courseCode?: string;
 }
-
-export interface CourseMappingEntry {
-  targetCode: string;   // UNamur course code
-  mockIcsFile: string;  // filename inside /public/mock/
-}
-
-export interface CourseMapping {
-  [ulbCourseCode: string]: CourseMappingEntry;
-}
-
-export interface CasUser {
-  uid: string;
-  mail: string;
-  displayName?: string;
-}

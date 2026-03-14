@@ -1,5 +1,9 @@
-import AppWrapper from '@/components/AppWrapper';
+'use client';
+
+import dynamic from 'next/dynamic';
+
+const App = dynamic(() => import('@/components/App'), { ssr: false });
 
 export default function HomePage() {
-  return <AppWrapper />;
+  return <App />;
 }
