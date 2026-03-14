@@ -1,4 +1,5 @@
-// Root redirect is handled by next.config.ts → redirects()
+import AppWrapper from '@/components/AppWrapper';
+
 export default function HomePage() {
-  return null;
+  return <AppWrapper />;
 }
