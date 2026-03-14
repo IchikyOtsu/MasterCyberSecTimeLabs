@@ -8,7 +8,7 @@ export default function LoginButton() {
 
   const handleLogin = async () => {
     setLoading(true);
-    await signIn('cas-ulb', { callbackUrl: '/dashboard' });
+    await signIn('ulb-oidc', { callbackUrl: '/dashboard' });
   };
 
   return (
