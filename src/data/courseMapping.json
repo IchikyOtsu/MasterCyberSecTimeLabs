@@ -1,0 +1,14 @@
+{
+  "INFO-F514": {
+    "targetCode": "IHDCB332",
+    "mockIcsFile": "unamur-crypto.ics"
+  },
+  "INFO-F405": {
+    "targetCode": "IHDCB344",
+    "mockIcsFile": "unamur-network-security.ics"
+  },
+  "DROIT-F401": {
+    "targetCode": "IHDCB351",
+    "mockIcsFile": "unamur-privacy.ics"
+  }
+}

@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNamur ADE//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IHDCB332 - Cryptographie
+X-WR-TIMEZONE:Europe/Brussels
+BEGIN:VEVENT
+UID:unamur-crypto-001@unamur.ac.be
+DTSTART:20260316T090000
+DTEND:20260316T110000
+SUMMARY:IHDCB332 - Cryptographie (UNamur)
+LOCATION:Salle S01 - Faculté d'Informatique - Rue Grandgagnage 21, Namur
+DESCRIPTION:Prof. Martin Dehon - Cryptographie symétrique et asymétrique
+END:VEVENT
+BEGIN:VEVENT
+UID:unamur-crypto-002@unamur.ac.be
+DTSTART:20260318T140000
+DTEND:20260318T160000
+SUMMARY:IHDCB332 - Cryptographie TP (UNamur)
+LOCATION:Labo Informatique L12 - Faculté d'Informatique - Namur
+DESCRIPTION:Prof. Martin Dehon - Travaux pratiques : implémentation RSA
+END:VEVENT
+BEGIN:VEVENT
+UID:unamur-crypto-003@unamur.ac.be
+DTSTART:20260323T090000
+DTEND:20260323T110000
+SUMMARY:IHDCB332 - Cryptographie (UNamur)
+LOCATION:Salle S01 - Faculté d'Informatique - Rue Grandgagnage 21, Namur
+DESCRIPTION:Prof. Martin Dehon - Protocoles cryptographiques et PKI
+END:VEVENT
+BEGIN:VEVENT
+UID:unamur-crypto-004@unamur.ac.be
+DTSTART:20260325T140000
+DTEND:20260325T160000
+SUMMARY:IHDCB332 - Cryptographie TP (UNamur)
+LOCATION:Labo Informatique L12 - Faculté d'Informatique - Namur
+DESCRIPTION:Prof. Martin Dehon - TP : TLS et certificats
+END:VEVENT
+END:VCALENDAR
